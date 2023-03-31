@@ -1,77 +1,136 @@
-#title{
-    background-color: #ff4c68;
+#title {
+    background-color: #cf8172;
     color: #fff;
 }
 
-h1{
+h1 {
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
-    
-}
-.top{
-    padding:3% 15%;
 }
 
+h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
-.downloadbtn{
-    margin:5% 3% 5% 0;
+.top {
+    padding: 3% 15%;
+}
+
+
+.downloadbtn {
+    margin: 5% 3% 5% 0;
 }
 
 
 
-body{
+body {
     font-family: 'Montserrat';
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.navbar{
+.navbar {
     padding-bottom: 4.5rem;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat';
     font-weight: 300;
 }
-.title-image{
+
+.title-image {
     width: 60%;
     transform: rotate(25deg);
 }
 
 /* ---------- features section ------- */
 
-.icons{
+.icons {
     color: #cf8172;
     padding: 4%;
 }
 
-.icons:hover{
+.icons:hover {
     color: #ff4c68;
 }
 
-.feature-headings{
+.feature-headings {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 2rem;
 }
 
-.feature-paras{
+.feature-paras {
     font-family: 'Montserrat';
     color: #8f8f8f;
 }
-.individual-features{
-    margin:7% 0;
+
+.individual-features {
+    margin: 7% 0;
     text-align: center;
 }
-.features-row{
-    padding: 0 5%;
+
+.features-row {
+    padding: 0 8%;
+}
+
+/* Testimonial section */
+#testimonials {
+
+    text-align: center;
+    background-color: #cf8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 5% 15% 5% 15%;
+    min-height: 480px;
+}
+
+/* press section */
+
+#press {
+    background-color: #cf8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.card-top{
+    background-color: #cf8172;
+}
+
+.custom_button{
+    border-color: #cf8172;
+    color: #cf8172;
+}
+
+.custom_button:hover {
+    background-color: #cf8172;
+    color: #fff
 }
