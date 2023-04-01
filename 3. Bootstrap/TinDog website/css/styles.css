@@ -1,6 +1,11 @@
 #title {
-    background-color: #cf8172;
+    background-color: #ff4c68;
     color: #fff;
+}
+
+.container-fluid{
+    padding: 2% 5% 15% 10%;
+
 }
 
 h1 {
@@ -16,11 +21,6 @@ h2 {
     font-size: 3rem;
     line-height: 1.5;
 }
-
-.top {
-    padding: 3% 15%;
-}
-
 
 .downloadbtn {
     margin: 5% 3% 5% 0;
@@ -55,9 +55,16 @@ body {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position:absolute;
+    right: 30%;
 }
 
-/* ---------- features section ------- */
+/* ---------- Features section ------- */
+
+#features{
+    background-color: #fff;
+    position:relative;
+}
 
 .icons {
     color: #cf8172;
@@ -88,9 +95,8 @@ body {
     padding: 0 8%;
 }
 
-/* Testimonial section */
+/* -----------Testimonial section------- */
 #testimonials {
-
     text-align: center;
     background-color: #cf8172;
     color: #fff;
@@ -107,7 +113,7 @@ body {
     min-height: 480px;
 }
 
-/* press section */
+/* ---------press section-------- */
 
 #press {
     background-color: #cf8172;
@@ -133,4 +139,58 @@ body {
 .custom_button:hover {
     background-color: #cf8172;
     color: #fff
+}
+
+@media (max-width:1150px){
+
+    .title-image {
+            width: 60%;
+            transform: rotate(0deg);
+            position: static;
+            right: 30%;
+        }
+
+    .new{
+        text-align: center;
+        
+    }
+
+    .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+
+/* ------- cta section ----------*/
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8% 14%;
+}
+
+.downloadbtn2 {
+    margin: 5% 3% 0% 0;
+}
+
+/* ------- footer section ----------*/
+
+#footer{
+    text-align: center;
+    padding: 4%;
+    line-height: 2;
+}
+
+.footer-icons{
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+}
+
+.cta-font {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: #fff;
 }

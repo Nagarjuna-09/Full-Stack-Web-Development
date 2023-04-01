@@ -26,7 +26,7 @@
 
 <body>
   <section id="title">
-    <div class="container-fluid top">
+    <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">tindog</a>
@@ -37,19 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav  ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
       </nav>
-      <!-- Title -->
-      <div class="row">
+      <!-- Title --> 
+      <div class="row new">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
           <button type="button" class="btn btn-dark btn-lg downloadbtn"> <i class="fa-brands fa-apple"></i>
@@ -57,7 +57,7 @@
           <button type="button" class="btn btn-outline-light btn-lg downloadbtn"> <i
               class="fa-brands fa-google-play"></i> Download</button>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="position:relative">
           <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
 
@@ -65,9 +65,7 @@
     </div>
   </section>
 
-
   <!-- Features -->
-
   <section id="features">
     <div class="row features-row">
       <div class="col-lg-4 individual-features">
@@ -130,90 +128,92 @@
 
 
   <!-- Pricing -->
-<section id="pricing">
-  <div class="container py-3">
-    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal">A Plan for Every Dog's Needs</h1>
-      <p class="fs-5 text-body-secondary">Simple and affordable price plans for you and your dog.</p>
+  <section id="pricing">
+    <div class="container py-3">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">A Plan for Every Dog's Needs</h1>
+        <p class="fs-5 text-body-secondary">Simple and affordable price plans for you and your dog.</p>
+      </div>
+      <div class="row mb-3 text-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4 rounded-3 shadow-sm ">
+            <div class="card-header py-3 card-top">
+              <h4 class="my-0 fw-normal">Chihuahua</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Free<small class="text-body-secondary fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 Matches Per Day</li>
+                <li>10 Messages Per Day</li>
+                <li>Unlimited App Usage</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg custom_button">Sign Up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 card-top">
+              <h4 class="my-0 fw-normal">Labrador</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$49<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg custom_button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3 card-top">
+              <h4 class="my-0 fw-normal">Mastiff</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$99<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Prioroty access</li>
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg custom_button">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm ">
-          <div class="card-header py-3 card-top">
-            <h4 class="my-0 fw-normal">Chihuahua</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">Free<small class="text-body-secondary fw-light"></small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>5 Matches Per Day</li>
-              <li>10 Messages Per Day</li>
-              <li>Unlimited App Usage</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg custom_button">Sign Up for free</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3 card-top">
-            <h4 class="my-0 fw-normal">Labrador</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$49<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Unlimited Matches</li>
-              <li>Unlimited Messages</li>
-              <li>Unlimited App Usage</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg custom_button">Sign Up</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3 card-top">
-            <h4 class="my-0 fw-normal">Mastiff</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$99<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Prioroty access</li>
-              <li>Unlimited Matches</li>
-              <li>Unlimited Messages</li>
-              <li>Unlimited App Usage</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg custom_button">Sign up</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
 
   <!-- Call to Action -->
 
   <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <h3 class="cta-font">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg downloadbtn2"> <i class="fa-brands fa-apple"></i>
+      Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg downloadbtn2"> <i class="fa-brands fa-google-play"></i>
+      Download</button>
   </section>
 
 
   <!-- Footer -->
 
   <footer id="footer">
-
+    <i class="fa-brands fa-twitter footer-icons"></i>
+    <i class="fa-brands fa-facebook-f footer-icons"></i>
+    <i class="fa-brands fa-instagram footer-icons"></i>
+    <i class="fa-solid fa-envelope footer-icons"></i>
     <p>© Copyright TinDog</p>
 
   </footer>
-
-
 </body>
 
 </html>
