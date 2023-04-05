@@ -1,0 +1,12 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 20% 10% 20% 10%;
+}
+
+.col{
+    padding: 5%;
+}
