@@ -5,10 +5,10 @@ var random_image2 = "images/dice" + random_number2 + ".png";
 document.querySelectorAll("img")[0].setAttribute("src", random_image1);
 document.querySelectorAll("img")[1].setAttribute("src", random_image2);
 
-if(random_image1>random_image2){
+if (random_number1 > random_number2){
     document.querySelector(".result").textContent = " 🚩 Player 1 Wins";
 }
-else if (random_image2 > random_image1){
+else if (random_number1 < random_number2){
     document.querySelector(".result").textContent = "Player 2 Wins 🚩";
 }
 else{
