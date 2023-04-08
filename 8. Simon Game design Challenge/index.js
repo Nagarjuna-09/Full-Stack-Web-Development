@@ -36,12 +36,13 @@ function choose_a_random_color(){
 
 function checkanswer(no_of_clicks){
     if (user_clicked_pattern[no_of_clicks] == game_pattern[no_of_clicks]){
-        clicks += 1;
+        // clicks += 1;
         if (no_of_clicks+1 == game_pattern.length) {
             setTimeout(function() {
                 nextsequence();
             },1000);
         }
+        clicks += 1;
     }
     else{
         $("body").addClass("game-over");
