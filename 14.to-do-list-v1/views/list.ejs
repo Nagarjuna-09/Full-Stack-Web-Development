@@ -1,0 +1,19 @@
+<%- include('header'); -%>
+    <div class="box" id="heading">
+        <h1>
+            <%= listTitle %>
+        </h1>
+    </div>
+    <div class="box" >
+        <%for(let i=0;i<list_array.length; i++) {%>
+            <div class="item">
+                <input type="checkbox">
+                <p><%= list_array[i] %></p>
+            </div>
+        <%}%>
+        <form class="item" action="/" method="post">
+            <input type="text" name="new_item" placeholder="New item" autofocus>
+            <button type="submit" name="button" value= <%= listTitle %>>+</button>
+        </form>
+    </div>
+<%- include('footer'); -%>
