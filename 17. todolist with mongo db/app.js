@@ -8,7 +8,10 @@ const app = express();
 var _ = require('lodash');
 
 app.set('view engine', 'ejs');
-mongoose.connect('mongodb://127.0.0.1:27017/todolistDB')
+// mongoose.connect('mongodb://127.0.0.1:27017/todolistDB')
+//   .then(() => console.log('Connected to ToDo-List Database in Mongo Databases!'));
+
+mongoose.connect('mongodb+srv://admin-arjun:test123@cluster0.gwu0ml5.mongodb.net/todolistDB')
   .then(() => console.log('Connected to ToDo-List Database in Mongo Databases!'));
 
 app.use(bodyParser.urlencoded({extended: true}));
