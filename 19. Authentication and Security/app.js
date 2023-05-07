@@ -12,16 +12,11 @@ app.use(express.static('public'));
 //connect to local mongodb database on your laptop. You can access this via mongoshell (using mongosh command in cmd) or ROBO 3T SW from laptop
 mongoose.connect('mongodb://127.0.0.1:27017/userDB')
   .then(() => console.log('Connected to users Database in Mongo Databases!'));
-//OR
-//connect to cloud mongo db database in Mongo db Atlas
-// mongoose.connect('mongodb+srv://admin-arjun:test123@cluster0.gwu0ml5.mongodb.net/todolistDB')
-// .then(() => console.log('Connected to ToDo-List Database in Mongo Databases!'));
 
 const userSchema = new mongoose.Schema({
     email: String,
     password: String
 });
-
 
 userSchema.plugin(encrypt, { secret: process.env.SECRET, encryptedFields: ['password'] });
 
